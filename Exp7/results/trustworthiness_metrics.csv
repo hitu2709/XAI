@@ -1,0 +1,6 @@
+metric,value,interpretation
+Fidelity,1.0,Agreement of surrogate and original model
+Stability,1.0,Prediction agreement under small perturbations
+Consistency,0.9666666666666667,Agreement between Random Forest and SVM
+Robustness,0.96,Prediction agreement under larger perturbations
+Sparsity,0.0,Fraction of features not needed to cover 90% importance; 10 features cover the target

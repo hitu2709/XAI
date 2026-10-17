@@ -1,0 +1,11 @@
+feature,importance_mean,importance_std
+mean,0.0,0.0
+std,0.0,0.0
+rms,0.0,0.0
+peak,0.0,0.0
+crest_factor,0.0,0.0
+skewness,0.0,0.0
+kurtosis,0.0,0.0
+fundamental_magnitude,0.0,0.0
+harmonic_energy_ratio,0.0,0.0
+total_energy,0.0,0.0

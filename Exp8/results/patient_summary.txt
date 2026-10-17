@@ -1,0 +1,12 @@
+Individual Prediction Explanation
+===================================
+Patient ID: Demonstration sample 1
+Predicted category: Lower predicted risk
+Model probability for higher-risk class: 0.3267
+
+Features with the largest absolute SHAP values:
+systolic_bp: patient value=98.078, SHAP value=-0.2534
+age: patient value=78.000, SHAP value=0.2021
+bmi: patient value=19.100, SHAP value=-0.1934
+smoking: patient value=1.000, SHAP value=0.0713
+physical_activity: patient value=5.000, SHAP value=-0.0637

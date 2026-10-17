@@ -1,0 +1,7 @@
+,Normal,Voltage_Sag,Voltage_Swell,Interruption,Harmonics,Flicker
+Normal,50,0,0,0,0,0
+Voltage_Sag,0,50,0,0,0,0
+Voltage_Swell,0,0,50,0,0,0
+Interruption,0,0,0,50,0,0
+Harmonics,0,0,0,0,50,0
+Flicker,0,0,0,0,0,50

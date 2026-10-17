@@ -1,0 +1,30 @@
+POWER QUALITY DISTURBANCE CLASSIFICATION
+=============================================
+Dataset: Synthetic PQD signals
+Model: Random Forest Classifier
+Test samples: 300
+Accuracy: 1.0000
+Macro ROC-AUC: 1.0000
+
+               precision    recall  f1-score   support
+
+       Normal       1.00      1.00      1.00        50
+  Voltage_Sag       1.00      1.00      1.00        50
+Voltage_Swell       1.00      1.00      1.00        50
+ Interruption       1.00      1.00      1.00        50
+    Harmonics       1.00      1.00      1.00        50
+      Flicker       1.00      1.00      1.00        50
+
+     accuracy                           1.00       300
+    macro avg       1.00      1.00      1.00       300
+ weighted avg       1.00      1.00      1.00       300
+
+
+TRUSTWORTHINESS METRICS
+------------------------------
+     metric    value                                                                        interpretation
+   Fidelity 1.000000                                             Agreement of surrogate and original model
+  Stability 1.000000                                        Prediction agreement under small perturbations
+Consistency 0.966667                                               Agreement between Random Forest and SVM
+ Robustness 0.960000                                       Prediction agreement under larger perturbations
+   Sparsity 0.000000 Fraction of features not needed to cover 90% importance; 10 features cover the target
